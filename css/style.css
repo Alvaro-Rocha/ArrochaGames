@@ -1,0 +1,77 @@
+h4 {
+    font: Arial;
+    margin-top: 20px !important;
+    margin: 40px;
+}
+
+body {
+    background-color:rgb(137, 137, 255) !important ;
+    
+}
+ 
+.as { 
+ text-decoration:none; 
+ color: black;
+ color: inherit !important;
+} 
+
+
+#memoria {
+    margin-left: 40px;
+    margin-top: 20px;
+   
+}
+#imgMemoria {
+    border-style: solid;
+    border-radius: 10px;
+   
+}
+
+#aMemoria {
+    display: block;
+    text-align: center;
+}
+
+#velha {
+    margin-left: 40px;
+    
+    
+    margin-top: 20px;
+}
+
+#imgVelha {
+    border-style: solid;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+#aVelha {
+    display: block;
+    text-align: center;
+}
+
+.jogos {
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+#logo {
+    margin: 0;
+    border: 0;
+
+
+}
+
+
+.nav-link {
+    margin-left: 50px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="jogoMemoria/bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="jogoMemoria/bootstrap/js/bootstrap.min.js"></script>
+    <title>ArrochaGames</title>
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://atende.dev.br/alvaro/ArrochaGames/"><img id="logo" src="img/AG.png" width="100px"> ArrochaGames</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/alvaro/ArrochaGames">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jogos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Jogo da Velha</a></li>
+                  <li><a class="dropdown-item" href="https://atende.dev.br/alvaro/ArrochaGames/jogoMemoria">Jogo da Memoria</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input id="buscar" class="form-control me-2" type="jogos" placeholder="Oque você quer jogar?" aria-label="jogos">
+              <button class="btn btn-outline-success" type="submit" onclick="pesquisar()">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      
+      <h4><b> > Nossos Jogos</b></h4>
+
+    
+      
+      <div class="jogos" id="memoria">
+        <a class="as" href="https://atende.dev.br/alvaro/ArrochaGames/jogoMemoria">
+          <img id="imgMemoria" src="img/memoria.png" width="128" height="128" onclick="oi()" onmouseenter="exibeM()" onmouseleave="ocultaM()">
+        </a>  
+        <a class="as" id="aMemoria" href="https://atende.dev.br/alvaro/ArrochaGames/jogoMemoria">Jogo da Memoria</a>
+
+      </div>
+      <div class="jogos" id="velha">
+        <a class="as" href="">
+          <img id=imgVelha src="img/velha.png" width="128" height="128" onmouseenter="exibeV()" onmouseleave="ocultaV()">
+        </a>
+        <a class="as" id="aVelha" href="#">Jogo da Velha</a>
+
+      </div>
+    
+</body>
+</html>
